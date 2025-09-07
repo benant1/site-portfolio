@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    
+}
+
+nav {
+    /* mettre horizontalement mes menues */
+    display: flex;
+    /* aligné a gauche */
+    justify-content: space-between;
+    /* espace entre les lignes */
+    /* gap: 50px; */
+    align-items: center;
+    /* background-color: #C49FFF */
+
+    /* padding: 10px; important */
+
+}
+.votreprojet{
+    margin: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid black;
+    /* border-radius: 20px; */
+    background-color: black;
+    color: rgb(249, 250, 252);
+    padding: 10px;
+   text-decoration: none;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: #0c0c0c;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 10px;
+
+    /* text-decoration: none; */
+
+    /* border: 5px solid #8A97FE; */
+    /* display: inline-block; */
+    /* border-radius: 20px;  */
+    /* background-color: #2a9d8f */
+}
+.ben {
+    /* color: white; */
+    font-size: 40px;
+    font-weight: bold;
+    /* font-family: 'Oswald', sans-serif; */
+    margin: 25px;
+    color: #3513ca;
+}
+nav a:hover{
+    color: rgb(226, 15, 120);
+    text-decoration: none; 
+}
+
+/* nav .logo img {  */
+    /* height: 100px;  */
+    /* width: 300px; */
+    /* border-radius: 50px; */
+    /* padding: 1px; */
+/* }  */
+
+nav .menu {
+    display: flex;
+    gap: 20px;
+}
+
+header {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(8, 0, 0);
+    /* text-align: center; */
+    height: 100px;
+    /* background-color: #8A97FE; */
+    /* border: 2px solid rgb(255, 0, 140); */
+    margin: 25px;
+}
+.image1 {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-top: 20px; */
+    width: 50%;
+
+    height: 700px;
+    /* border: 2px solid black; */
+    /* background-color: #C49FFF; */
+    padding: 20px;
+    /* j'ai tout les bord */
+    /* box-sizing: border-box; */
+    /* border-radius: 20px; */
+    /* background-image: url('image1.jpg'); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* /* margin-bottom: 20px; */
+    /* centrer ma div */
+    /* display: block;
+     margin: auto; */
+     float: right;
+
+}
+video {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    border: 5px solid #8A97FE;
+    /* centrer ma video */
+    display: block; margin: auto;
+}
+.p1 {
+    font-size: 40px;
+    color: #3513ca;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+.p2 {
+    font-size: 30px;
+    color: rgb(15, 1, 1);
+    /* text-align: center; */
+    /* margin-top: 20px; */
+    font-weight: bold;
+    margin: 25px;
+}
+
+ .p3 { 
+    font-size: 20px;
+    color: rgb(15, 1, 1);
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+} 
+.bas {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(247, 5, 126);
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.text1{
+
+    text-align: center;
+    /* font-size: 20px; */
+    color: rgb(248, 247, 247);
+    margin: 50px;
+    /* font-weight: bold; */
+    /* height: auto; */
+    /* background-color: #fe8ac0; */
+    /* padding: 20px; */
+    /* border: 2px solid #8A97FE; */
+}
+.proposimage1{
+    width: 50%;
+    height: 60%;
+    border-radius: 20px;
+    border: 5px solid #8A97FE;
+    display: block; margin: auto;
+}
+.text{
+    /* text-align: center */
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(250, 249, 250);
+    padding: 50px;
+}
+.textc1{
+    font-size: 20px;
+
+}
+ul{
+    /* font-size: 30px; */
+    font-weight: bold;
+    /* text-align: center; */
+}
+.h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    /* text-decoration: solid underline; */
+}
+.V{
+    width: 30%;
+    height: auto;
+ border: 2px solid black;
+}
+.app{
+    width: 35%;
+    height: 300px;
+   
+}
+.V1{
+    width: 30%;
+    height: 350px;
+    border: 2px solid black;
+    position: relative;
+    top: 25px;
+}
+.V2{
+    width: 30%;
+    height: 400px;
+    border: 2px solid black;
+   
+}
+.B2{
+    width: 25%;
+    height: 300px;
+}
+.imageV{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+   
+    border: 20px solid #C49FFF;
+  
+    border-radius: 20px;
+}
+.imageV :hover{
+    transform: scale(1,1) rotate(3deg);
+}
+.nom{
+    font-size: 30px;
+    font-weight: bold;
+    color: #3513ca;
+}
+.couleur{
+    background-color: #C49FFF;
+    height: 1000px;
+}
+.nom{
+    margin: 25px;
+}
+.je{
+    margin: 25px;
+}
+.bouton{
+   /* font-size: 200px; */
+   margin: 25px;   
+   width: 10%;
+   height: 40px;
+   background-color: black;
+   color: aliceblue;
+}
+.bouton1{
+width: 10%;
+height: 40px;
+
+}
+.d2{
+    /* background-color: #fe8ac0; */
+
+}
+.c2{
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 243, 238);
+    font-size: 40px;
+    margin: 30px;
+    gap: 220px;
+    /* padding: auto; */
+    color: #fe8ac0;
+    font-weight: bold;
+}
+.noir{
+    background-color: black;
+    text-align: center;
+}
+.c3{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    gap: 150px;
+    /* padding: 20px; */
+    padding-bottom: 20px;
+}
+.div1{
+    background-color: rgb(253, 255, 255);
+}
+.s{
+    text-align: center;
+/* justify-content: center; */
+}
+.t{
+text-align: center;
+margin: 50px;
+}
+/* .mobile{ */
+    /* display: flex; */
+/* justify-content: center;  */
+/* gap: 100px; */
+/* align-items: center; */
+/* } */
+.t1{
+    display: flex;
+justify-content: center;
+margin: 20px ;
+/* gap: 500px; */
+/* padding: 60px; */
+}
+/* .mb{
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+} */
+/* .gauche{
+    margin: 25px;
+} */
+ .mobile{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+ }
+ .Pro{
+text-align: center;
+ }
+.AGAPEE{
+    background-color: #C49FFF;
+    padding: 20px;
+    height: 300px;
+}
+.MISSION{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin: 20px;
+    /* margin-right: 50px;
+    margin-left: 50px; */
+}
+.ag{
+    width: 30%;
+}
+.pt{
+    width: 30%;
+    /* margin: 50px; */
+    /* justify-content: space-between; */
+
+}
+.espace{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+/* background-color: azure; */
+}
+.cm{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+}
+.idées{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color:  #C49FFF;
+    padding: 20px;
+} 
+.besoin{
+    font-size: 30px;
+}
+.ligne{
+    font-size: 30px;
+}
+.imageB{
+    justify-content: space-between;
+    gap: 25px
+    ;
+}
+.ap{
+    font-size: 30px;
+}
+.imageapp{
+    justify-content: space-between;
+    /* margin: 30px */
+    /* gap: 25px; */
+    justify-content: center;
+}
+.app2{
+    /* justify-content: space-between */
+    width: 20%;
+}
+.accompagner{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.contacter{
+    background-color: #C49FFF;
+    padding: 50px;
+    display: flex;
+    /* gap: 55px; */
+    /* padding-right: 100px; */
+    /* margin: 50px; ; */
+}
+/* nom{
+    padding: 30px;
+} */
+.bodi{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(253, 253, 252);
+    margin-left: 120px;
+    padding: 20px;
+    color: white;
+
+}
+.bo{
+    font-size: 30px;
+    /* color: aliceblue; */
+    font-weight: bolder;
+}
+.co{
+background-color: #0c0c0c;
+}
+.moi{
+    color: aliceblue;
+    text-align: center;
+}
+.icone{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+gap: 20px;
+/* height: 50px; */
+}
+.icone :hover{
+    transform: scale(1,1) rotate(5deg);
+}
+.ravi{
+width: 2%;
+background-color: white;
+}
+.ravi1{
+width: 2%;
+}
+.ravi2{
+width: 2%;
+}
+.ravi3{
+    width: 2%;
+    background-color: white;
+}
+.i2{
+    text-align: center;
+   
+}
+.bodi :hover{
+color: #fe8ac0;
+}
+.toi{
+    color: white;
+}
+.progress{
+    /* background-color: #4caf50; */
+    /* color: black; */
+   
+    text-align: right;
+    /* height: 100%; */
+     /* font-size: 30px; */
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color:  #C49FFF;
+    /* padding: 20px; */
+}
+.progress-bar{
+    background-color: rgb(240, 160, 12);
+     border: 2px solid black;
+     border-radius: 25px;
+     
+}
+.message {
+    /* width: 200px */
+    height: 50px;
+}
+.logoben{
+    width: 10%;
+}
+.icon{
+width: 33%;
+/* margin: 20px;: */
+}
+.icon1{
+width: 50%;
+}
+.icon2{
+width: 42%;
+}
+.creation{
+    width: 30%;
+}
+.app{
+    width: 20%;
+}
+.app1{
+    width: 20%;
+}
+.cv{
+    color: white;
+    text-decoration: none;
+}
+.service{
+    color: white;
+    text-decoration: none;
+}.apr{
+    color: white;
+    text-decoration: none;
+}
+.pro{
+  color: white;
+    text-decoration: none;
+ }
+.pr{
+color: white;
+    text-decoration: none;
+}
+.toi{
+    text-decoration: none;
+}
+.button{
+    text-decoration: none;
+    color: #0c0c0c;
+}
+#boulesCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1; /* pour que les boules soient derrière ton contenu */
+}
+
