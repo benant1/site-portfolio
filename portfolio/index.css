@@ -656,178 +656,20 @@ height: 100px;
     width: 300px;
 }
 .pro{
-    color: white;
-    text-decoration: none;
-}
-.co {
-    background-color: #0c0c0c;
-    padding: 40px 20px;
-    text-align: center; /* centre tout le texte */
-    color: white;
+color: white;
 }
 
-.bodi {
-    display: flex;
-    justify-content: center; /* centre BEN ANT */
-    gap: 50px;
-    margin-bottom: 20px;
-}
-
-.bo {
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-.moi {
-    color: aliceblue;
-    text-align: center; /* centre la phrase */
-    margin-bottom: 20px;
-    font-size: 18px;
-}
-
-.i2 {
-    display: flex;
-    justify-content: center; /* centre les icônes */
-    gap: 20px;
-}
-
-
-
-
-/* =========================
-   PETITS ÉCRANS (mobile)
-   ========================= */
+/* RESPONSIVE */
 @media (max-width: 768px) {
-
-  /* Nav et menu */
-  nav {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-  }
-
-  .votreprojet {
-    margin-top: 15px;
-  }
-
-  /* Hero section (texte + image) */
-  .hero {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .image1 {
-    width: 90%;
-    height: auto;
-    float: none;
-    margin: 20px 0;
-  }
-
-  .p1, .p2, .nom, .je {
-    text-align: center;
-  }
-
-  /* Services */
-  .mobile {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /* Réalisations */
-  .espace {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  /* Compétences */
-  .cm {
-    flex-direction: column;
-    margin: 30px;
-    gap: 30px;
-  }
-
-  /* Section idées */
-  .imageV {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .imageV img {
-    width: 90%;
-    height: auto;
-  }
-
-  /* Contact */
-  .contact {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .hun {
-    margin-bottom: 20px;
-  }
-
-  .formulaire {
-    width: 100%;
-    max-width: 350px;
-  }
-
-  /* Footer */
-  .bodi {
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
-  }
-}
-
-/* =========================
-   TABLETTES (écrans moyens)
-   ========================= */
-@media (min-width: 769px) and (max-width: 1024px) {
-  nav ul {
-    gap: 15px;
-  }
-
-  .hero {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .image1 {
-    width: 70%;
-    height: auto;
-    margin: 20px auto;
-    float: none;
-  }
-
-  .mobile {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
-
-  .espace {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
-
-  .cm {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
-
-  .formulaire {
-    width: 70%;
-  }
+    .hero {
+        flex-direction: column;
+    }
+    .services .services-cards,
+    .apropos .stats,
+    .projets .projets-images,
+    .skills .skills,
+    .idees-images {
+        flex-direction: column;
+        align-items: center;
+    }
 }
