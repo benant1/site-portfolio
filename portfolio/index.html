@@ -17,12 +17,17 @@
         <nav>
             <h1 class="ben">BEN ANT</h1>
             <div class="menu">
-                <ul>
+                <div class="humberger" onclick="toggleMenu()">
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                </div>
+                <ul id="navLinks">
 
-                    <a href="index.html"> Accueil</a>
-                    <a href="#apropos">A propos</a>
-                    <a href="#compétence">Compétences</a>
-                    <a href="#projet">Projet</a>
+                    <li><a href="#index.html"> Accueil</a></li>
+                    <li><a href="#apropos">A propos</a></li>
+                    <li><a href="#compétence">Compétences</a></li>
+                    <li><a href="#projet">Projet</a></li>
 
                 </ul>
             </div>
@@ -135,25 +140,28 @@
                     </div>
                     <div class="MISSION">
 
-                        <h2 class="M1">"MISSION AGAPEE"</h2>
+                       
+
+
+                        
 
 
 
-                        <h2 class="portfolio11">"Mon portfolio"</h2>
-
-
-
-                        <h2 class="M2">"Mon Design"</h2>
+                       
 
                     </div>
                     <div class="espace">
-                        <div>
+                        <div class="iii">
+                             <h2 class="M1">MISSION AGAPEE</h2>
+
                             <img class="ag" src="Agape.webp" alt="Agape">
                         </div>
                         <div>
+                            <h2 class="portfolio11">Mon portfolio</h2>
                             <img class="pt" src="portfolio.png" alt="portfolio">
                         </div>
                         <div>
+                             <h2 class="M2">Mon Design</h2>
                             <img class="creation" src="bencrétion.png" alt="bencrétion">
                         </div>
                     </div>
@@ -458,6 +466,11 @@
                 window.open('cv.pdf', '_blank');
             });
 
+
+
+            function toggleMenu(){
+               document.getElementById("navLinks").classList.toggle("show");
+            }
         </script>
 
 

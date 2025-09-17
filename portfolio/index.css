@@ -258,7 +258,7 @@ height: 40px;
     color: rgb(243, 243, 238);
     font-size: 40px;
     margin: 30px;
-    gap: 220px;
+    gap: 120px;
     /* padding: auto; */
     color: #fe8ac0;
     font-weight: bold;
@@ -271,7 +271,7 @@ height: 40px;
     display: flex;
     justify-content: center;
     color: azure;
-    gap: 150px;
+    gap: 50px;
     /* padding: 20px; */
     padding-bottom: 20px;
 }
@@ -351,6 +351,9 @@ height: 300px;
     display: flex;
     justify-content: space-between;
     
+}
+.espace h2{
+margin-left: 30px;
 }
 .M1{
 margin-left: 30px;
@@ -690,6 +693,21 @@ height: 100px;
     justify-content: center; /* centre les icônes */
     gap: 20px;
 }
+/* .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+}
+ .hamburger {
+        display: flex;
+    } */
 
 
 
@@ -701,7 +719,7 @@ height: 100px;
 
   /* Nav et menu */
   nav {
-    flex-direction: column;
+    flex-direction:row;
     align-items: center;
   }
 
@@ -709,6 +727,7 @@ height: 100px;
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
+    font-size: 8px;
   }
 
   .votreprojet {
@@ -720,6 +739,7 @@ height: 100px;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-top: 70px;
   }
 
   .image1 {
@@ -738,7 +758,12 @@ height: 100px;
     flex-direction: column;
     align-items: center;
   }
-
+  .is{
+    height: 1000px;
+  }
+.suis{
+    height: 550px;
+}
   /* Réalisations */
   .espace {
     flex-direction: column;
@@ -751,8 +776,11 @@ height: 100px;
     flex-direction: column;
     margin: 30px;
     gap: 30px;
+  
   }
-
+ .glo{
+    height: 700px;
+   }
   /* Section idées */
   .imageV {
     flex-direction: column;
@@ -786,7 +814,19 @@ height: 100px;
     gap: 10px;
     margin-top: 20px;
   }
+  .AGAPEE{
+    height: 1200px;
+  }
+  .MISSION {
+  flex-direction: column;
+  justify-content: center;
+  }
 }
+/* .votreprojet{
+    margin: 0px;
+    text-align: center;
+    width: 70px; */
+/* } */
 
 /* =========================
    TABLETTES (écrans moyens)
